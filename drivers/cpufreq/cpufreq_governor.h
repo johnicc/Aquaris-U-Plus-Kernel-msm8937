@@ -188,6 +188,10 @@ struct cs_dbs_tuners {
 	unsigned int freq_step;
 	unsigned int twostep_threshold;
 	unsigned int twostep_counter;
+        unsigned int boost_enabled;
+	unsigned int boost_count;
+        unsigned int sleep_depth;
+        unsigned int down_threshold_suspended;
 	u64 twostep_time;
 };
 

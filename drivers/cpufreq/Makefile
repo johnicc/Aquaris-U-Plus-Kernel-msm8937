@@ -21,7 +21,8 @@ obj-$(CONFIG_CPU_FREQ_GOV_DESPAIR) += cpufreq_despair.o
 obj-$(CONFIG_CPU_FREQ_GOV_DANCEDANCE)  += cpufreq_dancedance.o
 obj-$(CONFIG_CPU_FREQ_GOV_LIONFISH)         += cpufreq_lionfish.o
 obj-$(CONFIG_CPU_FREQ_GOV_HYPER)	+= cpufreq_hyper.o
-
+obj-$(CONFIG_CPU_FREQ_GOV_CHILL)	   += cpufreq_chill.o
+obj-$(CONFIG_CPU_FREQ_GOV_IRONACTIVE)		+= cpufreq_ironactive.o
 
 obj-$(CONFIG_CPUFREQ_DT)		+= cpufreq-dt.o
 
